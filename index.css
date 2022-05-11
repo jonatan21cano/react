@@ -1,0 +1,35 @@
+main{
+    height: 100vh;
+    display: flex;
+    background-color: royalblue;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+section{
+    width: 500px;
+    height: 500px;
+    border: solid 1px;
+}
+.cajaUno{
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    display: flex;
+    background-color: coral;
+}
+.cajaDos{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    align-items: center;
+    background-color: cadetblue;
+}
+div{
+    width: 210px;
+    height: 210px;
+    border: solid 1px;
+    background-color: aquamarine;
+}
+
+ 
